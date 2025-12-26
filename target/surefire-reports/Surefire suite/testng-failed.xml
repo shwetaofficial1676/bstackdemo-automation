@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="tests.CheckoutTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TC_008_CheckoutWithoutProd"/>
+          <include name="TC_007_placeOrderWithValidDetails"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- tests.CheckoutTest -->
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TC_001_validLogin"/>
+          <include name="initDriver"/>
+          <include name="TC_002_invalidUserName"/>
+          <include name="TC_003_invalidPassword"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.CartTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TC_004_addSingleItemToCart"/>
+          <include name="TC_006_removeItemFromCart"/>
+          <include name="initDriver"/>
+          <include name="TC_005_addMultipleItemsToCart"/>
+        </methods>
+      </class> <!-- tests.CartTests -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

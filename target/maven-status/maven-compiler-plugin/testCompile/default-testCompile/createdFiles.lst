@@ -1,0 +1,5 @@
+base\BaseTest.class
+tests\CartTests.class
+tests\ExtentReport.class
+tests\CheckoutTest.class
+tests\LoginTest.class
