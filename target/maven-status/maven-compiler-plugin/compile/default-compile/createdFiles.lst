@@ -1,0 +1,7 @@
+pages\ProductPage.class
+utils\WebDriverFactory.class
+pages\LoginPage.class
+pages\CartPage.class
+pages\CheckoutPage.class
+utils\ConfigReader.class
+utils\WaitUtils.class
